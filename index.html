@@ -1,505 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from zyan.vercel.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Aug 2024 15:24:33 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
-  <title>Jaber - Personal Portfolio HTML Template</title>
-  <link rel="icon" type="image/png" href="images/favicon.png" />
-  <link rel="stylesheet" href="css/font-awesome-pro.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/scroll_button.css" />
-  <link rel="stylesheet" href="css/plugin.css" />
-  <link rel="stylesheet" href="css/spacing.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/responsive.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-gray-900 text-white">
 
-<body>
-  <!--================================
-
-  <div class="preloader">
-    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-      <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-    </svg>
-    <h5 class="preloader-text">Loading</h5>
-  </div>
- 
-        PRELOADER END
-    =================================-->
-  <!--================================
-        MENU START
-    =================================-->
-  <nav class="navbar navbar-expand-lg main_menu">
-    <div class="container main_menu_bg">
-      <a class="navbar-brand" href="index.html">
-        
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
-        <i class="fa-regular fa-xmark close_icon"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item">
-            <a class="nav-link text_hover_animaiton active" href="#">Home </a>
-            
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text_hover_animaiton" href="#skills">Skills</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link text_hover_animaiton" href="#projects">Projects
-            </a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link text_hover_animaiton" href="contact">contact
-            </a>
-          </li>
-        </ul>
-        
-    </div>
-  </nav>
-  <script>
-    let lastScrollTop = 0;
-    const navbar = document.querySelector('.main_menu');
-  
-    window.addEventListener('scroll', function() {
-      let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      
-      if (scrollTop > lastScrollTop) {
-        // Scrolling down
-        navbar.classList.add('navbar-hidden');
-      } else {
-        // Scrolling up
-        navbar.classList.remove('navbar-hidden');
-      }
-      
-      lastScrollTop = scrollTop;
-    });
-  </script>
-  
-
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
-    <div class="offcanvas-header">
-      <a class="offcanvas-logo" href="index_2.html">
-        <img src="images/logo.png" alt="ZAYAN" class="img-fluid w-100" />
-      </a>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-        <i class="fa-regular fa-xmark"></i>
-      </button>
-    </div>
-    <div class="offcanvas-body">
-      <div class="tf__design_form offcanvas_form">
-        <div class="offcanvas-content-box">
-          <h4 class="offcanvas_title">About us</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-            tempor incididunt ut labore et magna aliqua. Ut enim ad minim
-            veniam laboris.
-          </p>
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-4 bg-gray-800">
+        <h1 class="text-xl font-bold">Jaber Ahmed</h1>
+        <div class="space-x-4">
+            <a href="#about" class="hover:text-gray-400">About Me</a>
+            <a href="#projects" class="hover:text-gray-400">Projects</a>
+            <a href="#contact" class="hover:text-gray-400">Contact</a>
         </div>
-        <div class="offcanvas_contact_form">
-          <h4 class="offcanvas_title">Get In Touch</h4>
-          <form action="#">
-            <input type="text" placeholder="Your Name" aria-autocomplete="list" />
-            <input type="email" placeholder="Your Email" />
-            <textarea rows="4" placeholder="Message"></textarea>
-            <button type="submit" class="common_btn">submit now</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--================================
-        MENU END
-    =================================-->
+    </nav>
 
+    <!-- About Me Section -->
+<section id="about" class="py-20 px-4 text-center">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="mb-4">I am a web developer with a passion for creating engaging and user-friendly websites.</p>
+    <a href="images\Jaber Ahmed Resume.pdf" target="_blank" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400">View CV</a>
+</section>
 
-
-
-
-
-  <!--================================
-        BANNER START
-    =================================-->
-  <section class="tf__banner banner" style="background-image:images\space.jpg">
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-xl-6 col-lg-8">
-          <div class="tf__banner_text">
-            <h1>
-              Hi, I'm Jaber! Creative
-              <span class="cd-headline rotate-1">
-                <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
-                <span class="cd-words-wrapper">
-                  <b class="is-visible">Video Editor</b>
-                  <b>Motion Designer</b>
-                  <b>Web Developer</b>
-                </span>
-              </span>
-            </h1>
-            <p>
-              I'm a passionate UI/UX designer with a mission to create
-              delightful and intuitive digital experiences. With a strong
-              foundation in design principles and a keen eye for detail, I
-              specialize in translating complex ideas into user-friendly
-              interfaces that captivate and engage.
-            </p>
-            <ul>
-              <li>
-                <a class="common_btn" href="icon\Jaber Ahmed Resume.pdf">Download Cv <i class="fa-solid fa-arrow-down-to-line"></i></a>
-              </li>
-              <li>
-                <a class="banner_video_btn play_btn" href=""><i
-                    class="fa-sharp fa-solid fa-circle-play"></i> Watch the
-                  Video</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-  <!--================================
-        BANNER END
-    =================================-->
-
-
-
-
-
-
-
-
-  
-
- 
-
-  
-  <!--================================
-        SKILLS START
-    =================================-->
-  <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-6 col-lg-6">
-          <div class="tf__team_skills_bar_single fade_bottom" data-trigerId="skills" data-stagger=".25">
-            <p>HTML</p>
-            <div id="bar1" class="barfiller">
-              <div class="tipWrap">
-                <span class="tip"></span>
-              </div>
-              <span class="fill" data-percentage="75"></span>
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4">
+        <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-4 rounded">
+                <h3 class="font-bold">Project 1</h3>
+                <video controls poster="https://logocent.com/wp-content/uploads/2022/06/Explainer-Video-4-1024x572-1.png" class="w-full mb-2">
+                    <source
+                    src="videos\Front End Web Develop Course.mp4"
+                    type="video/mp4">
+                    />
+                    Your browser does not support the video tag.
+                </video>
+                <p>Front End Web Development Course - Explainer Video</p>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6">
-          <div class="tf__team_skills_bar_single fade_bottom" data-trigerId="skills" data-stagger=".25">
-            <p>Python</p>
-            <div id="bar2" class="barfiller">
-              <div class="tipWrap">
-                <span class="tip"></span>
-              </div>
-              <span class="fill" data-percentage="90"></span>
+            <div class="bg-gray-800 p-4 rounded">
+                <h3 class="font-bold">Project 3</h3>
+                <video controls poster="https://logocent.com/wp-content/uploads/2022/06/Explainer-Video-4-1024x572-1.png" class="w-full mb-2">
+                    <source src="videos\PHP Developer Course.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>PHP Developer Course - Explainer Video</p>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6">
-          <div class="tf__team_skills_bar_single fade_bottom" data-trigerId="skills" data-stagger=".25">
-            <p>CSS</p>
-            <div id="bar3" class="barfiller">
-              <div class="tipWrap">
-                <span class="tip"></span>
-              </div>
-              <span class="fill" data-percentage="80"></span>
+            <div class="bg-gray-800 p-4 rounded">
+                <h3 class="font-bold">Project 2</h3>
+                <img src="sample-image1.jpg" alt="Project 2" class="w-full mb-2 rounded">
+                <p>A brief description of Project 2.</p>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6">
-          <div class="tf__team_skills_bar_single fade_bottom" data-trigerId="skills" data-stagger=".25">
-            <p>Photoshop</p>
-            <div id="bar4" class="barfiller">
-              <div class="tipWrap">
-                <span class="tip"></span>
-              </div>
-              <span class="fill" data-percentage="70"></span>
+            <div class="bg-gray-800 p-4 rounded">
+                <h3 class="font-bold">Project 3</h3>
+                <video controls class="w-full mb-2">
+                    <source src="sample-video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>A brief description of Project 3.</p>
             </div>
-          </div>
+            <!-- Add more project sections as needed -->
         </div>
-        <div class="col-xl-6 col-lg-6">
-          <div class="tf__team_skills_bar_single fade_bottom" data-trigerId="skills" data-stagger=".25">
-            <p>Java Script</p>
-            <div id="bar5" class="barfiller">
-              <div class="tipWrap">
-                <span class="tip"></span>
-              </div>
-              <span class="fill" data-percentage="70"></span>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6">
-          <div class="tf__team_skills_bar_single fade_bottom" data-trigerId="skills" data-stagger=".25">
-            <p>Figma</p>
-            <div id="bar6" class="barfiller">
-              <div class="tipWrap">
-                <span class="tip"></span>
-              </div>
-              <span class="fill" data-percentage="80"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================================
-        SKILLS END
-    =================================-->
+    </section>
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-    <h5>Portfolio</h5><br> <br> <br> <br>
-
-<!--================================
-        Icons Start
-    =================================-->
-    <div class="Body Icons">
-
-    </div>
-    <div class="icons">
-      <div class="youtube">
-          <a href="https://www.youtube.com/@jaberahmed9520/videos" target="_blank"> YouTube</a>
-          
-          
-      </div>
-      <div class="google-drive">
-          <a href="https://drive.google.com/drive/folders/1I8uZsNDTEl22Vwwsg1cGO5_D5P1j4KVa" target="_blank">Google Drive</a>
-          
-      </div>
-
-      <div class="facebook">
-          <a href="https://www.facebook.com/mdjaberahmed435" target="_blank">Facebook</a>
-      </div>
-
-      <div class="instagram">
-          <a href="https://www.instagram.com/__jaberahmed__/" target="_blank">Instagram</a>
-      </div>
-
-      <div class="linkedin">
-          <a href="https://www.linkedin.com/in/jaberahmed435/" target="_blank">LinkedIn</a>
-      </div>
-  </div><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
-
-
-<!--================================
-        Icons End
-    =================================-->
-
-
-
+    <!-- Contact Section -->
+     <!-- Contact Section -->
+<section id="contact" class="py-20 px-4 text-center">
+    <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+    <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=your-email@example.com" class="text-blue-400" target="_blank">jabarahmed332@gmail.com</a></p>
+</section>
    
-    
-  
-  
 
+    <footer class="bg-gray-800 p-4 text-center">
+        <p>&copy; 2024 Jaber Ahmed. All rights reserved.</p>
+    </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-  <!--================================
-        PORTFOLIO START
-    =================================-->
- 
-  <!--================================
-        PORTFOLIO END
-    =================================-->
-
-
-
-<!--================================
-    PORTFOLIO START
-=================================-->
-<section class="tf__portfolio mt_120 xs_mt_80" id="projects">
-  <div class="containerYT"> 
-    <div class="row">
-      <div class="col-xl-10 col-lg-9 mb_30">
-        <div class="tf__section_heading">
-          <!-- Floating YouTube Icon -->
-          <div class="">
-            <a href="" target="_blank">
-              <imgsrc="" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> 
-<br> <br> <br> <br>
-<!--================================
-      PORTFOLIO END
-=================================-->
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <!--================================
-        FOOTER START
-    =================================-->
-  <footer class="footer" id="footer">
-    <div class="footer-container">
-      <div class="pt_120 xs_pt_80 sm_pt_80">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="tf__footer_content fade_right" data-trigerId="footer" data-stagger=".25">
-                
-                <div class="text">
-                  <h3></h3>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="tf__footer_content fade_right" data-trigerId="footer" data-stagger=".25">
-                
-                <div class="text">
-                  <h3></h3>
-                  <a href="callto:1234567890"></a>
-                  <a href="callto:1234567890"></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="tf__footer_content fade_right" data-trigerId="footer" data-stagger=".25">
-                
-                <div class="text">
-                  <h3></h3>
-                  <a href="mailto:example@gmail.com"></a>
-                  <a href="mailto:example@gmail.com"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer> <br> <br> 
-
-
-    
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--================================
-  FOOTER END
-=================================-->
-  <!--================================
-        SCROLL BUTTON START
-    =================================-->
-  <div class="progress active c-pointer">
-    <svg class="progress-svg" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-    </svg>
-  </div>
-  <!--================================
-        SCROLL BUTTON END
-    =================================-->
-
-  <!--================================
-        CURSOR START
-    =================================-->
-  <div id="magic-cursor">
-    <div id="ball"></div>
-  </div>
-  <!--================================
-        CURSOR END
-    =================================-->
-
-  <script src="js/plugin.js"></script>
-  <!--scroll button js-->
-  <script src="js/scroll_button.js"></script>
-  <!--sticky sidebar js-->
-  <script src="js/sticky_sidebar.js"></script>
-  <!-- Animation -->
-  <script src="js/animation.js"></script>
-  <!--main/custom js-->
-  <script src="js/main.js"></script>
 </body>
-
-<!-- Mirrored from zyan.vercel.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Aug 2024 15:25:04 GMT -->
-
 </html>
