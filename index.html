@@ -1,13 +1,40 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-900 text-white">
 
+    <!-- Title and Meta Tags for SEO -->
+    <title>Jaber Ahmed | VFX Artist & Web Developer from Dhaka</title>
+    <meta name="description" content="Explore Jaber Ahmed's portfolio, a VFX artist and web developer from Dhaka. Check out his YouTube videos, projects, and contact information.">
+    <meta name="keywords" content="Jaber Ahmed, VFX Artist, Web Developer, Dhaka, YouTube, Jaber Ahmed Portfolio, Jaber Ahmed VFX, Jaber Dhaka, Jaber YouTube">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jaber Ahmed",
+      "jobTitle": "VFX Artist & Web Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dhaka",
+        "addressCountry": "Bangladesh"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@jaberahmed9520",
+        "https://www.instagram.com/__jaberahmed__/",
+        "https://github.com/jaberahmed"
+      ]
+    }
+    </script>
+</head>
+
+<body class="bg-gray-900 text-white">
     <!-- Navbar -->
     <nav class="flex justify-between items-center p-4 bg-gray-800">
         <h1 class="text-xl font-bold">Jaber Ahmed</h1>
@@ -19,94 +46,74 @@
     </nav>
 
     <!-- About Me Section -->
-<section id="about" class="py-20 px-4 text-center">
-    <h2 class="text-3xl font-bold mb-4">About Me</h2>
-    <p class="mb-4">I am a web developer with a passion for creating engaging and user-friendly websites.</p>
-    <a href="images\Jaber Ahmed Resume.pdf" target="_blank" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400">View CV</a>
-</section>
+    <section id="about" class="py-20 px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="mb-4">I am a web developer with a passion for creating engaging and user-friendly websites.</p>
+        <a href="images/Jaber Ahmed Resume.pdf" target="_blank" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400" title="Download Jaber Ahmed's CV">View CV</a>
+    </section>
 
     <!-- Projects Section -->
     <section id="projects" class="py-20 px-8">
         <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
-    
         <!-- Container for the videos -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-6xl">
             <!-- PHP Developer Course -->
             <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
                 <h3 class="font-bold mb-2">PHP Developer Course</h3>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/dYL3M3PnRcs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded"></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/dYL3M3PnRcs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="PHP Developer Course - Jaber Ahmed"></iframe>
                 <p class="mt-2">PHP Developer Course - Explainer Video</p>
                 <!-- YouTube glow effect -->
                 <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
-    
+
             <!-- সতেজ থাকার উপায় -->
             <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
                 <h3 class="font-bold mb-2">সতেজ থাকার উপায়</h3>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/tT4PqY5_-Po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded"></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/tT4PqY5_-Po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="সতেজ থাকার উপায় - Jaber Ahmed"></iframe>
                 <p class="mt-2">সতেজ থাকার উপায়</p>
                 <!-- YouTube glow effect -->
                 <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
-    
+
             <!-- Graphics Design Course -->
             <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
                 <h3 class="font-bold mb-2">Graphics Design Course</h3>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/5STyqhxVXfQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded"></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/5STyqhxVXfQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="Graphics Design Course - Jaber Ahmed"></iframe>
                 <p class="mt-2">Graphics Design Course - Explainer Video</p>
                 <!-- YouTube glow effect -->
                 <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
-    
+
             <!-- Full Stack Web Development Course -->
             <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
                 <h3 class="font-bold mb-2">Full Stack Web Development Course</h3>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/B_VhQfMVDjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded"></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/B_VhQfMVDjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="Full Stack Web Development Course - Jaber Ahmed"></iframe>
                 <p class="mt-2">Full Stack Web Development Course - Explainer Video</p>
                 <!-- YouTube glow effect -->
                 <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
-    
+
             <!-- Front End Web Development Course -->
             <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
                 <h3 class="font-bold mb-2">Front End Web Development Course</h3>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/jb1x-TxKw-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded"></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/jb1x-TxKw-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="Front End Web Development Course - Jaber Ahmed"></iframe>
                 <p class="mt-2">Front End Web Development Course - Explainer Video</p>
                 <!-- YouTube glow effect -->
                 <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
-    
+
             <!-- Email Marketing -->
             <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
                 <h3 class="font-bold mb-2">Email Marketing</h3>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Sf7TleTShLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded"></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Sf7TleTShLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="Email Marketing - Jaber Ahmed"></iframe>
                 <p class="mt-2">Email Marketing - Explainer Video</p>
                 <!-- YouTube glow effect -->
                 <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
         </div>
     </section>
-    
-
 
     <!-- Contact Section -->
-     <!-- Contact Section -->
-<section id="contact" class="py-20 px-4 text-center">
-    <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
-    <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=your-email@example.com" class="text-blue-400" target="_blank">jabarahmed332@gmail.com</a></p>
-</section>
-   
-
-    <footer class="bg-gray-800 p-4 text-center">
-        <p>&copy; 2024 Jaber Ahmed. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
-
-https://youtu.be/dYL3M3PnRcs PHP Developer Course
-https://youtu.be/tT4PqY5_-Po সতেজ থাকার উপায়
-https://youtu.be/5STyqhxVXfQ Graphics Design Course
-https://youtu.be/B_VhQfMVDjE Full stack web development course
-https://youtu.be/jb1x-TxKw-E Front End Web Develop Course
-https://youtu.be/Sf7TleTShLc email marketing
+    <section id="contact" class="py-20 px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+        <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jabarahmed332@gmail.com" class="text-blue-400" target
