@@ -49,7 +49,7 @@
     <section id="about" class="py-20 px-4 text-center">
         <h2 class="text-3xl font-bold mb-4">About Me</h2>
         <p class="mb-4">I am a web developer with a passion for creating engaging and user-friendly websites.</p>
-        <a href="images/Jaber Ahmed Resume.pdf" target="_blank" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400" title="Download Jaber Ahmed's CV">View CV</a>
+        <a href="zyan.vercel.app\Jaber Ahmed Resume.pdf" target="_blank" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400" title="Download Jaber Ahmed's CV">View CV</a>
     </section>
 
     <!-- Projects Section -->
@@ -57,58 +57,82 @@
         <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
         <!-- Container for the videos -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-6xl">
+
+
+            <!-- Styles Animation -->
+            <style>
+                @keyframes smoothPop {
+                    0% {
+                        transform: scale(0.8);
+                        opacity: 0;
+                    }
+                    100% {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                }
+                .smooth-pop {
+                    animation: smoothPop 0.5s ease-out forwards;
+                }
+                .smooth-pop-1 { animation-delay: 0.1s; }
+                .smooth-pop-2 { animation-delay: 0.3s; }
+                .smooth-pop-3 { animation-delay: 0.5s; }
+                .smooth-pop-4 { animation-delay: 0.7s; }
+                .smooth-pop-5 { animation-delay: 0.9s; }
+                .smooth-pop-6 { animation-delay: 0.10s; }
+                /* Add more classes as needed */
+                </style>
+                
+
+
             <!-- PHP Developer Course -->
-            <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
-                <h3 class="font-bold mb-2">PHP Developer Course</h3>
+            <div class="smooth-pop smooth-pop-1">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/dYL3M3PnRcs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="PHP Developer Course - Jaber Ahmed"></iframe>
                 <p class="mt-2">PHP Developer Course - Explainer Video</p>
-                <!-- YouTube glow effect -->
-                <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
-
-            <!-- সতেজ থাকার উপায় -->
-            <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
-                <h3 class="font-bold mb-2">সতেজ থাকার উপায়</h3>
+            
+            <div class="smooth-pop smooth-pop-2">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/tT4PqY5_-Po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="সতেজ থাকার উপায় - Jaber Ahmed"></iframe>
                 <p class="mt-2">সতেজ থাকার উপায়</p>
-                <!-- YouTube glow effect -->
-                <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
+            
+            
+
+
+
+
+
+
 
             <!-- Graphics Design Course -->
-            <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
-                <h3 class="font-bold mb-2">Graphics Design Course</h3>
+            <div class="smooth-pop smooth-pop-3">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/5STyqhxVXfQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="Graphics Design Course - Jaber Ahmed"></iframe>
                 <p class="mt-2">Graphics Design Course - Explainer Video</p>
-                <!-- YouTube glow effect -->
-                <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
             </div>
 
             <!-- Full Stack Web Development Course -->
-            <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
-                <h3 class="font-bold mb-2">Full Stack Web Development Course</h3>
+            <div class="smooth-pop smooth-pop-4">
+                
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/B_VhQfMVDjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="Full Stack Web Development Course - Jaber Ahmed"></iframe>
                 <p class="mt-2">Full Stack Web Development Course - Explainer Video</p>
-                <!-- YouTube glow effect -->
-                <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
+               
             </div>
 
             <!-- Front End Web Development Course -->
-            <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
-                <h3 class="font-bold mb-2">Front End Web Development Course</h3>
+            
+            <div class="smooth-pop smooth-pop-5">
+                
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/jb1x-TxKw-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="Front End Web Development Course - Jaber Ahmed"></iframe>
                 <p class="mt-2">Front End Web Development Course - Explainer Video</p>
-                <!-- YouTube glow effect -->
-                <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
+                
             </div>
 
             <!-- Email Marketing -->
-            <div class="bg-gray-800 p-4 rounded relative hover:shadow-lg hover:shadow-red-500 transition duration-300 ease-in-out">
-                <h3 class="font-bold mb-2">Email Marketing</h3>
+            <div class="smooth-pop smooth-pop-6">
+                
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Sf7TleTShLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded" title="Email Marketing - Jaber Ahmed"></iframe>
                 <p class="mt-2">Email Marketing - Explainer Video</p>
-                <!-- YouTube glow effect -->
-                <div class="absolute inset-0 rounded-lg pointer-events-none bg-gradient-to-r from-red-500 via-red-600 to-red-700 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
+                
             </div>
         </div>
     </section>
